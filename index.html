@@ -12,89 +12,195 @@
 <section id="home" class="page active"
 style="
 background-image:
-linear-gradient(rgba(255,255,255,0.35),rgba(255,255,255,0.35)),
-url('Araku-Pinery-homepage.jpg');
+linear-gradient(rgba(0,45,25,0.28),rgba(0,35,20,0.45)),
+url('araku-pinery-homepage.jpg');
 background-size:cover;
 background-position:center center;
 background-repeat:no-repeat;
-min-height:calc(100vh - 250px);
-padding:30px 15px 50px;
+min-height:calc(100vh - 180px);
+padding:35px 15px 60px;
 box-sizing:border-box;
 ">
-<div style="text-align:center;max-width:900px;margin:0 auto 25px;">
-<h2 class="home-title">Explore Araku Pinery</h2>
 
-<p class="home-sub">
-Tap an icon to view the information.
-</p>
+<div style="
+max-width:1050px;
+margin:auto;
+text-align:center;
+">
 
-<h2 style="margin:15px 0 5px;font-size:26px;">
-🌲 Welcome to Araku Pinery
+<div style="
+display:inline-block;
+background:rgba(255,255,255,0.90);
+color:#17633a;
+padding:8px 18px;
+border-radius:30px;
+font-size:13px;
+font-weight:bold;
+letter-spacing:1px;
+margin-bottom:18px;
+">
+ANDHRA PRADESH FOREST DEPARTMENT
+</div>
+
+<h1 style="
+color:white;
+font-size:clamp(38px,7vw,72px);
+margin:5px 0;
+font-weight:800;
+text-shadow:0 3px 12px rgba(0,0,0,0.75);
+">
+ARAKU PINERY
+</h1>
+
+<h2 style="
+color:white;
+font-size:clamp(22px,4vw,38px);
+margin:0 0 15px;
+font-weight:600;
+text-shadow:0 2px 8px rgba(0,0,0,0.7);
+">
+Eco-Tourism Initiative
 </h2>
 
-<p style="margin:0;font-size:15px;">
+<p style="
+color:white;
+font-size:18px;
+max-width:750px;
+margin:0 auto 22px;
+line-height:1.6;
+text-shadow:0 2px 7px rgba(0,0,0,0.8);
+">
 Nature • Conservation • Community • Eco-Tourism
 </p>
+
+<div style="margin-bottom:30px;">
+
+<button class="lang active"
+style="font-size:15px;padding:10px 18px;">
+English
+</button>
+
+<button class="lang"
+style="font-size:15px;padding:10px 18px;">
+తెలుగు
+</button>
+
+<button class="lang"
+style="font-size:15px;padding:10px 18px;">
+हिन्दी
+</button>
+
 </div>
 
 <div style="
+background:rgba(255,255,255,0.92);
+border-radius:28px;
+padding:25px 18px 30px;
+box-shadow:0 15px 40px rgba(0,0,0,0.30);
+backdrop-filter:blur(5px);
+">
+
+<h2 style="
+color:#17633a;
+font-size:30px;
+margin:0 0 5px;
+">
+🌲 Explore Araku Pinery
+</h2>
+
+<p style="
+color:#4d5b53;
+font-size:16px;
+margin:0 0 22px;
+">
+Discover the history, nature, facilities and community of Araku Pinery.
+</p>
+
+<div style="
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
 gap:15px;
 max-width:950px;
 margin:auto;
 ">
 
-<button class="icon" onclick="show('about')">
-<span class="emoji">🌲</span>
+<button class="icon"
+onclick="show('about')"
+style="min-height:125px;">
+<span class="emoji" style="font-size:48px;">🌲</span>
 About Araku Pinery
 <span class="desc">History, objectives & scenic importance</span>
 </button>
 
-<button class="icon" onclick="show('eco')">
-<span class="emoji">🌿</span>
+<button class="icon"
+onclick="show('eco')"
+style="min-height:125px;">
+<span class="emoji" style="font-size:48px;">🍃</span>
 Eco-Tourism
 <span class="desc">Development & facilities</span>
 </button>
 
-<button class="icon" onclick="show('location')">
-<span class="emoji">📍</span>
+<button class="icon"
+onclick="show('location')"
+style="min-height:125px;">
+<span class="emoji" style="font-size:48px;">📍</span>
 Location
 <span class="desc">Administrative details & map</span>
 </button>
 
-<button class="icon" onclick="show('gallery')">
-<span class="emoji">📸</span>
+<button class="icon"
+onclick="show('gallery')"
+style="min-height:125px;">
+<span class="emoji" style="font-size:48px;">📸</span>
 Gallery
 <span class="desc">Araku Pinery photographs</span>
 </button>
 
-<button class="icon" onclick="show('video')">
-<span class="emoji">🎥</span>
+<button class="icon"
+onclick="show('video')"
+style="min-height:125px;">
+<span class="emoji" style="font-size:48px;">🎥</span>
 Video
 <span class="desc">Araku Pinery video</span>
 </button>
 
-<button class="icon" onclick="show('community')">
-<span class="emoji">👥</span>
+<button class="icon"
+onclick="show('community')"
+style="min-height:125px;">
+<span class="emoji" style="font-size:48px;">👥</span>
 Community & Livelihood
 <span class="desc">Local participation & employment</span>
 </button>
 
-<button class="icon" onclick="show('stats')">
-<span class="emoji">📊</span>
+<button class="icon"
+onclick="show('stats')"
+style="min-height:125px;">
+<span class="emoji" style="font-size:48px;">📊</span>
 Visitor & Revenue
 <span class="desc">Statistics and revenue</span>
 </button>
 
-<button class="icon" onclick="show('contact')">
-<span class="emoji">📞</span>
+<button class="icon"
+onclick="show('contact')"
+style="min-height:125px;">
+<span class="emoji" style="font-size:48px;">📞</span>
 Contact
 <span class="desc">Forest Department information</span>
 </button>
 
 </div>
+</div>
 
+<div style="
+margin-top:25px;
+color:white;
+font-size:14px;
+text-shadow:0 2px 6px rgba(0,0,0,0.8);
+">
+🌿 Welcome to Araku Pinery 🌿
+</div>
+
+</div>
 </section>
 <section id="about" class="page"><button class="back" onclick="show('home')">← Home</button><div class="card"><h2>1. Historical Background</h2><p>Araku Pinery, also known as <strong>Anjoda Farm</strong>, is located near Shanthinagar in Araku Valley and is managed by the <strong>Andhra Pradesh Forest Department</strong>. The plantation was raised during <strong>1970–71 over 14 hectares</strong> by Sri K. A. Madavraj, Research Officer, under the supervision of the then PCCF, Sri P. S. Rao.</p><p>Species include <em>Pinus kesiya</em>, <em>Pinus caribaea</em>, <em>Pinus patula</em>, <em>Pinus roxburghii</em> and <em>Eucalyptus tereticornis</em>. Seeds were sourced from the Khasi Hills and Jaintia Hills of Meghalaya and England.</p><p><strong>1976:</strong> 100 hectares at Maredumilli and Paderu. <strong>1977:</strong> 80 hectares at Paderu and Araku Valley.</p></div><div class="card"><h2>2. Objectives</h2><ol><li>Conserve ecosystems and natural areas.</li><li>Promote responsible tourism by educating visitors about the local environment, natural surroundings and ecological conservation.</li><li>Support protection and sustainable management while generating livelihood opportunities and economic benefits for local tribal communities.</li></ol></div><div class="card"><h2>3. Scenic Importance</h2><p>The Araku Pinery covers 14 hectares and presents a picturesque landscape of pine and eucalyptus trees. Mature plantation, valley slopes and natural surroundings provide a distinctive scenic setting.</p><p>Old structures within the Pinery are popular locations for photography, pre-wedding shoots and film production.</p><h3>Boundaries</h3><ul><li><strong>Southern:</strong> Kothavalasa–Kirandul railway line</li><li><strong>Eastern:</strong> Natural stream adjoining agricultural areas</li><li><strong>Western:</strong> Highway leading towards Jeypore</li></ul></div></section>
 <section id="eco" class="page"><button class="back" onclick="show('home')">← Home</button><div class="card"><h2>🌿 Eco-Tourism Development</h2><p>The Eco-Tourism Initiative commenced on <strong>19 November 2023</strong> under the then PCCF Sri Y. Madhusudhan Reddy and was implemented by DFO Sri K. Vinod Kumar.</p><h3>Facilities and Development</h3><ul><li>Barbed-wire fencing and site protection</li><li>Bush and weed clearance</li><li>Dustbins, signage, walking paths and parking</li><li>Ticket counter, park office, cafeteria and washrooms</li><li>Wooden decks, tree deck, entrance arches and photo/selfie points</li><li>Electricity, borewell and water facilities</li><li>Nature camping and tented accommodation</li><li>Pagodas/bamboo huts and seating</li><li>Strawberry farm and RO water plant</li><li>Rose gardens and native landscaping</li><li>Valiselu, sunflower and marigold cultivation</li><li>Children's play area and adventure arena</li><li>Pine planting and nursery development</li></ul></div><div class="card"><h2>♻️ Plastic Reduction</h2><p>A <strong>₹20 refundable deposit</strong> is collected at the ticket counter for each plastic water bottle to encourage return of bottles and use of biodegradable alternatives.</p></div></section>
